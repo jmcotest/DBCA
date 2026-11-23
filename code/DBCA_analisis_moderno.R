@@ -22,7 +22,8 @@ dir.create(file.path(".","BD"),showWarnings = FALSE, recursive=TRUE)
 # Datos de ejemplo
 #' 
 #' # Ejercicio
-#' Hoppe registró observaciones con el objeto de comparar 7 fungicidas para semillas y un control sin tratamiento respecto a la emergencia de plántulas de maíz infectado con _Diplodia spp._ El experimento se llevó a cabo en un invernadero con seis bloques en un diseño en bloques completos al azar. Cada unidad experimental consistía en 25 semillas. Los datos y tratamientos codificados se dan en la tabla.
+#' Hoppe registró observaciones con el objeto de comparar 7 fungicidas para semillas y un control sin 
+#' tratamiento respecto a la emergencia de plántulas de maíz infectado con _Diplodia spp._ El experimento se llevó a cabo en un invernadero con seis bloques en un diseño en bloques completos al azar. Cada unidad experimental consistía en 25 semillas. Los datos y tratamientos codificados se dan en la tabla.
 #' 
 #' Los tratamientos corresponden a:
 #' 
@@ -198,9 +199,9 @@ graficos_personalizado(
 
 # 
 # Gráfica resumen más completo basado en el resumen de la distribución *a posteriori*
-# Fig n. Contenido promedio de nitrógeno en plantas de trébol inoculadas con diferentes cepas de Rhizobium.
+# Fig n. Número de plantas emergidas en diferentes tratamiento de control de Diplodia spp._
 #        Las barras de error indican los límites del intervalo de mas alta densidad a posterior de 90%. En la
 #        parte superior de límite se indica la probabilidad de que ese tratamiento sea el mejor mientras en el
 #        límite inferior se indica la probabilidad de ser el peor. En rojo se indica la probabilidad de que ese
-#        tratamiento supere la concentración de 25 mg. Al lado izquiero de la media se indica la probabilidad de
-#        superar el testigo Compuesto. La línea punteada indica el valor de referencia de 25 mg.
+#        tratamiento supere emergencia de 15 plantas. Al lado izquiero de la media se indica la probabilidad de
+#        superar el testigo A. La línea punteada indica el valor de referencia de 15 plantas.
