@@ -205,3 +205,12 @@ graficos_personalizado(
 #        límite inferior se indica la probabilidad de ser el peor. En rojo se indica la probabilidad de que ese
 #        tratamiento supere emergencia de 15 plantas. Al lado izquiero de la media se indica la probabilidad de
 #        superar el testigo A. La línea punteada indica el valor de referencia de 15 plantas.
+
+###########################################################
+# 4. Guardando resultados en archivos de salida           #
+###########################################################
+write_xlsx(list(modelo=analisis_post_modelo), 
+path = file.path(".","salidas","excel","modelo_moderno.xlsx"))
+
+saveRDS(list(modelo=m, modelo=analisis_post_modelo), 
+        file = file.path(".","salidas","modelo_moderno.rds"),compress = "xz")
